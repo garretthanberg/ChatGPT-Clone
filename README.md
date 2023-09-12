@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/72dffe34-beab-4670-a313-bb0d22368c2b" alt="screenshot">
+  <img src="https://github.com/garretthanberg/ChatGPT-Clone/assets/115447682/810da2a1-38ad-4aaf-be58-439838cafd1c" alt="screenshot">
 </p>
 
 ## Introduction
@@ -69,7 +69,7 @@ $ yarn run dev
 ```
 
 <p align="center">
-  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/470ded6b-ff60-4958-8e6b-ef2bdf808038" alt="screenshot">
+  <img src="https://github.com/garretthanberg/ChatGPT-Clone/assets/115447682/b4b55714-22e1-420b-acaa-51fc53ce22da" alt="screenshot">
 </p>
 
 ## Contributing
