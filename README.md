@@ -39,7 +39,7 @@ Before you proceed, make sure you have the following tools and technologies inst
     Node.js (https://nodejs.org)
     Yarn package manager (https://yarnpkg.com)
     Firebase account for authentication and database setup (https://firebase.google.com)
-    OpenAi API Key to interact with the OpenAI GPT-3 models (https://www.themoviedb.org/)
+    OpenAi API Key to interact with the OpenAI GPT-3 models (https://platform.openai.com/overview)
 
 ## Installation
 
