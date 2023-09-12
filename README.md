@@ -1,34 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  ChatGPT Clone with Next.js 13, Typescript, Tailwind CSS, Firebase, and OpenAI API.
+  <br>
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#features">Features</a> •
+  <a href="#prerequisites">Prerequisites</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
 
-First, run the development server:
+<p align="center">
+  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/72dffe34-beab-4670-a313-bb0d22368c2b" alt="screenshot">
+</p>
+
+## Introduction
+
+This project is a ChatGPT clone built using a blend of cutting-edge web development technologies. It aims to recreate the fundamental features of a chatbot application, encompassing real-time chat interaction, user authentication via Firebase, integration with the OpenAI API for natural language processing, responsive design using Tailwind CSS, and dynamic data management with Next.js 13 and TypeScript.
+
+This project was crafted with a focus on learning and skill development, serving as an educational exercise. It's important to clarify that it's not intended for commercial use, but rather designed to showcase the integration of various technologies within a real-world context.
+
+## Features
+
+* User authentication using Google Authentication.
+* Seamless integration with the OpenAI API for natural language processing.
+* Real-time chat interface with a responsive design powered by Tailwind CSS.
+* Simultaneous chat data storage and retrieval using Firestore/Firebase.
+* Enhanced user feedback and notifications with React Hot Toast.
+* Dynamic data fetching and caching with SWR for improved performance.
+
+<a id="prerequisites"></a>
+## Prerequisites
+
+Before you proceed, make sure you have the following tools and technologies installed on your system:
+
+    Node.js (https://nodejs.org)
+    Yarn package manager (https://yarnpkg.com)
+    Firebase account for authentication and database setup (https://firebase.google.com)
+    OpenAi API Key to interact with the OpenAI GPT-3 model (https://www.themoviedb.org/)
+
+## Installation
+
+To run the ChatGPT clone on your local machine, follow these steps:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone this repository:
+$ git clone https://github.com/garretthanberg/ChatGPT-Clone.git
+
+
+# Go into the repository:
+$ cd ChatGPT-Clone 
+
+
+# Install dependencies using Yarn:
+$ yarn install
+
+
+# Create a Firebase project and set up the necessary configurations (Authentication and Firestore).
+# Replace the Firebase config in firebase.js with your credentials.
+# Input your credentials into serviceAccountKey.json.
+# Create a .env.local file and input your GOOGLE_ID, GOOGLE_SECRET, NEXTAUTH_URL, NEXTAUTH_SECRET, OPENAI_API_KEY, and FIREBASE_SERVICE_ACCOUNT_KEY.
+
+
+# Run the development server:
+$ yarn run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img src="https://github.com/garretthanberg/Netflix-Clone/assets/115447682/470ded6b-ff60-4958-8e6b-ef2bdf808038" alt="screenshot">
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions to the project are welcome and encouraged! If you find any bugs or want to add new features, please create an issue or submit a pull request. Please make sure to follow the project's code of conduct.
 
-## Learn More
+1. Fork the repository
+2. Create your branch: git checkout -b feature/YourFeature
+3. Commit your changes: git commit -m 'Add YourFeature'
+4. Push to the branch: git push origin feature/YourFeature
+5. Open a pull request
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+I hope you enjoy using my ChatGPT Clone! If you have any questions or need assistance, feel free to contact me.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> Portfolio [garretthanberg.com](https://www.garretthanberg.com) &nbsp;&middot;&nbsp;
+> GitHub [@garretthanberg](https://github.com/garretthanberg) &nbsp;&middot;&nbsp;
+> LinkedIn [Garrett Hanberg](https://www.linkedin.com/in/garrett-hanberg/) 
